@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO-Things To Do</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arya:wght@400;700&family=Pathway+Gothic+One&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bbfbbc27a0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <h1>Things To Do &#x1F4C6;</h1>
+
+    <div class="container">
+        <div class="input">
+            <input type="text" id="txtItem" placeholder="New Task">
+            <i onclick="saveTask()" class="fa-solid fa-floppy-disk fa-xl"></i>
+        </div>
+
+        <div class="feature">
+            <select name="priority" id="priority">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+            <button onclick="deleteAll()">Clear All</button>
+        </div>
+        <hr>
+        <ul id="task-box">
+            <!-- <li class="tasks">
+            <label >
+            <p>Sample task</p>
+        </label>
+            <div class="svg">
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </li> -->
+        </ul>
+    </div>
+    <footer>
+        <p>Made with <i>&#10084;</i></p>
+    </footer>
+    <script src="todo.js"></script>
+
+</body>
+
+</html>

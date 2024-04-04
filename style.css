@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+.input input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 40px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input i {
+    cursor: pointer;
+    padding: 10px;
+    color: #007bff;
+    border-radius: 5px;
+    margin-left: -50px;
+}
+.input i:hover{
+    color: #0056b3;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.feature button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feature button:hover {
+    background-color: #c82333;
+}
+
+.tasks {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks label p {
+    margin: 0;
+}
+
+.svg i {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #007bff;
+}
+
+.svg i:hover {
+    color: #0056b3;
+}
+#task-box{
+    margin-left: -35px;
+}
+
+footer{
+    font-weight: bold;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+footer i{
+    color: red;
+    font-style: normal;
+}
